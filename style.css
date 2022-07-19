@@ -33,23 +33,23 @@ li {
 /* Fonts used in project */
 @font-face {
     font-family: "SpartanSemiBold";
-    src: url("fonts/spartan-cufonfonts/Spartan-SemiBold.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-SemiBold.woff");
   }
   @font-face {
     font-family: "Bebas Kai";
-    src: url("fonts/bebas_kai/BebasKai.otf");
+    src: url("fonts/bebas_kai/BebasKai.woff");
   }
   @font-face {
     font-family: "SpartanRegular";
-    src: url("fonts/spartan-cufonfonts/Spartan-Regular.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-Regular.woff");
   }
   @font-face {
     font-family: "SpartanBold";
-    src: url("fonts/spartan-cufonfonts/Spartan-Bold.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-Bold.woff");
   }
   @font-face {
     font-family: "SpartanMedium";
-    src: url("fonts/spartan-cufonfonts/Spartan-Medium.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-Medium.woff");
   }
 
 .nav-item.icon {
