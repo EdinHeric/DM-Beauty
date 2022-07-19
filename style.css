@@ -1,0 +1,426 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+.nav-link {
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.number {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar.navbar-expand-lg.nav_container {
+  background-color: #000;
+  font-family: "SpartanSemiBold";
+  font-size: 12px;
+}
+
+.number {
+  font-size: 12px;
+  margin-left: 10px;
+}
+/* Fonts used in project */
+@font-face {
+    font-family: "SpartanSemiBold";
+    src: url("fonts/spartan-cufonfonts/Spartan-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: "Bebas Kai";
+    src: url("fonts/bebas_kai/BebasKai.otf");
+  }
+  @font-face {
+    font-family: "SpartanRegular";
+    src: url("fonts/spartan-cufonfonts/Spartan-Regular.ttf");
+  }
+  @font-face {
+    font-family: "SpartanBold";
+    src: url("fonts/spartan-cufonfonts/Spartan-Bold.ttf");
+  }
+  @font-face {
+    font-family: "SpartanMedium";
+    src: url("fonts/spartan-cufonfonts/Spartan-Medium.ttf");
+  }
+
+.nav-item.icon {
+  color: #fff;
+}
+
+#hero-section {
+	position: relative;
+  background-image: url("images/DM\ Beauty\ -\ home\ page\ -\ Banner\ Section-xd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+	padding-bottom: 5%;
+  text-align: center;
+  margin-top: -5px;
+}
+.hero {
+  font-family: "Bebas Kai";
+  font-size: 55px;
+  color: #fff;
+  margin-top: 15%;
+} 
+.beauty,.colorfix {
+  font-family: "Bebas Kai";
+  font-size: 55px;
+  color: #fff;
+  margin-top: 60%;
+  letter-spacing: 2px;
+  padding-left: 30px;
+}
+.text {
+  font-family: "SpartanRegular";
+  color: #fff;
+  font-size: 13px;
+  padding-left: 30px;
+  padding-top: 5% ;
+
+}
+.lorem {
+  font-family: "SpartanRegular";
+  color: #fff;
+  font-size: 13px;
+  line-height: 2.5;
+  margin-top: 2%;
+}
+.shop {
+	color: #000;
+	padding: 20px 40px;
+	background-color: #fff;
+	border: none;
+	font-family: "SpartanBold";
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
+	margin-top: 2%;
+	margin-bottom: 10%;
+}
+.shop-two {
+	color: #000;
+	padding: 20px 40px;
+	background-color: #fff;
+	border: none;
+	font-family: "SpartanBold";
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
+	margin-top: 1%;
+	margin-bottom: 0;
+  margin-left: 30px;
+}
+
+#best-beauty {
+  position: relative;
+  background-image: url("images/Group\ 460@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+	padding-bottom: 5%;
+}
+.shop-two.hide {
+  visibility: hidden;
+}
+.text {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+#colorfix {
+  position: relative;
+  background-image: url("images/AdobeStock_251061394_Preview@2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+	padding-bottom: 5%;
+}
+.image-wrapper {
+  margin: 5% auto;
+  width: 95%;
+}
+
+.lip-palette {
+  background-color: #EEE3E0;
+  text-align: center;
+}
+.crowd {
+  font-family: "SpartanSemiBold";
+  font-size: 13px;
+  letter-spacing: 1.8px;
+  margin-top: 5%;
+  margin-top: 20%;
+}
+.heading {
+  font-family: "Bebas Kai";
+  color: #000;
+  font-size: 55px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.skin {
+  font-family: "SpartanRegular";
+  font-size: 13px; 
+  color: #000;
+  line-height: 2;
+}
+.black {
+  color: #fff;
+	padding: 20px 40px;
+	background-color: #000;
+	border: none;
+	font-family: "SpartanBold";
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
+	margin-top: 1%;
+	margin-bottom: 10%;
+}
+.carmin {
+  width: 100%;
+  height: 100%;
+}
+.lip-palette {
+  margin-left: -12px;
+}
+
+#contact-us {
+  background-color: #BB9185;
+  padding: 50px 30px 150px 50px;
+}
+.contact {
+  color: #fff;
+  font-family: "Bebas Kai";
+  font-size: 55px;
+  letter-spacing: 1px;
+}
+.first-text,.second-text,.third-text,.fourth-text {
+  font-family: "SpartanRegular";
+  font-size: 13px;
+  color: #fff;
+  line-height: 2;
+}
+.first-text {
+   padding-top: 30px;
+}
+.second-text {
+  width: 80%;
+}
+.second-text,.third-text {
+  padding-top: 10px;
+}
+
+#get-in-touch {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+.touch {
+  font-family: "SpartanBold";
+  font-size: 26px;
+}
+.contact-form {
+  width: 95%;
+}
+
+#footer {
+  background-color: #000;
+  display: flex;
+  padding: 60px 60px 120px 60px;
+}
+.logo-footer {
+  padding-left: 50px;
+}
+.footer-head {
+  color: #CCACA3;
+  font-family: "SpartanSemiBold";
+  font-size: 11px;
+  letter-spacing: 0.55px;
+}
+.icons {
+  padding-right: 3%;
+}
+#footer ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+#footer ul {
+  list-style-type: none;
+}
+.footer-nav {
+  font-family: "SpartanMedium";
+  font-size: 12px;
+  padding-top: 15px;
+}
+.customer {
+  font-size: 12px;
+  font-family: "SpartanMedium";
+  color: #fff;
+}
+.subscribing {
+  font-size: 9px;
+  font-family: "SpartanRegular";
+  color: #fff;
+  line-height: 2.5;
+  width: 55%;
+  padding-top: 20px;
+}
+.terms {
+  color: #fff;
+  text-decoration: underline;
+}
+.instagram,.pinterest,.tiktok {
+  padding-left: 20px;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #fff;
+}
+/* INTERACTIONS */
+
+.fa-magnifying-glass:hover {
+  color: #CCACA3;
+}
+.fa-heart:hover {
+  color: #CCACA3;
+}
+.fa-user:hover {
+  color: #CCACA3;
+}
+.fa-bag-shopping:hover {
+  color: #CCACA3;
+}
+.shop:hover {
+  color: #fff;
+  background-color: #BB9185;
+  transition: 0.3s;
+}
+.shop.black:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 0.3s;
+}
+#best-beauty:hover .beauty {
+  transform: translateY(-100px);
+  transition: 0.3s;
+}
+#best-beauty:hover .balm {
+  transform: translateY(-100px);
+  transition: 0.3s;
+}
+#best-beauty:hover .hide {
+  visibility: visible;
+  transition: 0.3s;
+}
+
+#colorfix:hover .colorfix {
+  transform: translateY(-100px);
+  transition: 0.3s;
+}
+#colorfix:hover .pigment {
+  transform: translateY(-100px);
+  transition: 0.3s;
+}
+#colorfix:hover .hide {
+  visibility: visible;
+  transition: 0.3s;
+}
+.button-za-submit:hover {
+  color: #BB9185;
+  transition: 0.3s;
+}
+.logo {
+  margin-left: 10%;
+}
+.logo,.icons {
+  flex: 1;
+}
+.list-navigation {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero {
+     font-size:25px;  
+    }
+    .lorem {
+      font-size: 11px;
+    }
+    #best-beauty {
+      margin-bottom: 2%;
+    }
+    .beauty,.colorfix,.heading,.contact {
+      font-size: 40px;
+    }
+    .crowd {
+      font-size: 10px;
+    }
+    #contact-us {
+      width: 90%;
+      margin: auto;
+    }
+    .touch {
+      text-align: center;
+    }
+    .typefields {
+      width: 90%;
+    }
+    .social {
+      margin-left: 15%;
+      margin-top: 3%;
+    }
+}
+
+input {
+  border: none;
+
+}
+
+.text1 {
+  width: 75%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  padding-left: 0;
+  position: relative;
+  margin-top: 40px;
+}
+
+input {
+  width: 75%;
+  border: none;
+  background: none;
+  padding: 0 20px;
+  outline: none;
+  font-size: 15px;
+
+}
+
+.button-za-submit{
+  color: #ccc;
+  padding-top: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  padding-right: 20px
+
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+@media screen and (min-width: 600px) {
+  input {
+    padding-right: 80px;
+  }
+}
