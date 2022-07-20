@@ -19,8 +19,10 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
+  --bs-primary: #000000;
+  --bs-primary-white: #FFFFFF;
+  --bs-primary-rosy-brown: #BB9185;
+  --bs-secondary: #D4A194;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -30,6 +32,76 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+/* my changes */
+
+.btn.btn-primary {
+  color: #000;
+	padding: 20px 40px;
+	background-color: #fff;
+	border: none;
+	font-family: "SpartanBold";
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
+}
+.btn.btn-primary:hover {
+  color: #fff;
+  background-color: #BB9185;
+  transition: 0.3s;
+}
+.btn.btn-secondary {
+  color: #fff;
+  padding: 20px 40px;
+  background-color: #000;
+  border: none;
+  font-family: "SpartanBold";
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  border-radius: 4px;
+}
+.btn.btn-secondary:hover {
+  color: #000;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.btn.btn-secondary-no-hover {
+  color: #fff;
+  padding: 20px 40px;
+  background-color: #000;
+  border: none;
+  font-family: "SpartanBold";
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  border-radius: 4px;
+}
+.btn.btn-secondary-no-hover:hover {
+  color: #fff;
+}
+
+h1,h2 {
+  font-family: "Bebas Kai";
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 1;
+  color: #000000;
+}
+h2 {
+  font-size: 55px;
+}
+h3 {
+  font-family: "SpartanBold"; 
+  font-size: 32px;
+  line-height: 1.37;
+  color: #000;
+}
+.h3-secondary {
+  font-family: "Bebas Kai";
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1.06;
+  color: #000;
 }
 
 *,
