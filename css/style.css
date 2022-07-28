@@ -25,7 +25,6 @@ li {
   font-family: "SpartanSemiBold";
   font-size: 12px;
 }
-
 .number {
   font-size: 12px;
   margin-left: 10px;
@@ -33,23 +32,23 @@ li {
 /* Fonts used in project */
 @font-face {
     font-family: "SpartanSemiBold";
-    src: url("fonts/spartan-cufonfonts/Spartan-SemiBold.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-SemiBold.woff");
   }
   @font-face {
     font-family: "Bebas Kai";
-    src: url("fonts/bebas_kai/BebasKai.otf");
+    src: url("fonts/bebas_kai/BebasKai.woff");
   }
   @font-face {
     font-family: "SpartanRegular";
-    src: url("fonts/spartan-cufonfonts/Spartan-Regular.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-Regular.woff");
   }
   @font-face {
     font-family: "SpartanBold";
-    src: url("fonts/spartan-cufonfonts/Spartan-Bold.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-Bold.woff");
   }
   @font-face {
     font-family: "SpartanMedium";
-    src: url("fonts/spartan-cufonfonts/Spartan-Medium.ttf");
+    src: url("fonts/spartan-cufonfonts/Spartan-Medium.woff");
   }
 
 .nav-item.icon {
@@ -96,41 +95,23 @@ li {
   margin-top: 2%;
 }
 .shop {
-	color: #000;
-	padding: 20px 40px;
-	background-color: #fff;
-	border: none;
-	font-family: "SpartanBold";
-	font-size: 12px;
-	letter-spacing: 1.2px;
-	border-radius: 4px;
 	margin-top: 2%;
 	margin-bottom: 10%;
-}
-.shop-two {
-	color: #000;
-	padding: 20px 40px;
-	background-color: #fff;
-	border: none;
-	font-family: "SpartanBold";
-	font-size: 12px;
-	letter-spacing: 1.2px;
-	border-radius: 4px;
-	margin-top: 1%;
-	margin-bottom: 0;
-  margin-left: 30px;
 }
 
 #best-beauty {
   position: relative;
-  background-image: url("images/Group\ 460@2x.png");
+  background-image: url("images/The\ best\ beauty\ in\ the\ world.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
 	padding-bottom: 5%;
 }
-.shop-two.hide {
+.hide {
   visibility: hidden;
+  margin-top: 1%;
+	margin-bottom: 0;
+  margin-left: 30px;
 }
 .text {
   font-size: 13px;
@@ -139,7 +120,7 @@ li {
 
 #colorfix {
   position: relative;
-  background-image: url("images/AdobeStock_251061394_Preview@2x.png");
+  background-image: url("images/Colorfix\ 24-hour\ cream.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -173,18 +154,6 @@ li {
   font-size: 13px; 
   color: #000;
   line-height: 2;
-}
-.black {
-  color: #fff;
-	padding: 20px 40px;
-	background-color: #000;
-	border: none;
-	font-family: "SpartanBold";
-	font-size: 12px;
-	letter-spacing: 1.2px;
-	border-radius: 4px;
-	margin-top: 1%;
-	margin-bottom: 10%;
 }
 .carmin {
   width: 100%;
@@ -298,16 +267,6 @@ li {
 }
 .fa-bag-shopping:hover {
   color: #CCACA3;
-}
-.shop:hover {
-  color: #fff;
-  background-color: #BB9185;
-  transition: 0.3s;
-}
-.shop.black:hover {
-  color: #000;
-  background-color: #fff;
-  transition: 0.3s;
 }
 #best-beauty:hover .beauty {
   transform: translateY(-100px);
