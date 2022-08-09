@@ -100,12 +100,14 @@
   margin-inline: auto;
   display: block;
 } 
-.mail-color {
-  color: var(--bs-primary-rosy-brown);
-}
+
 .mail-color-nohover {
   color: var(--bs-primary-rosy-brown);
   text-decoration: none;
+}
+.mail-color-nohover:hover {
+  color: var(--bs-primary-rosy-brown);
+  text-decoration: underline;
 }
 
 .text-gray-400 {
@@ -123,52 +125,8 @@
 /*  
 GUIDELINES buttons start  */
 
-.btn-primary-black {
-  color: #fff;
-	padding: 20px 40px;
-	background-color: #000;
-	border: none;
-	font-family: var(--bs-spartan-bold);
-	font-size: 12px;
-	letter-spacing: 1.2px;
-	border-radius: 4px;
-}
-.btn-primary-white {
-  color: #000;
-	padding: 16px 36px;
-	background-color: #fff;
-	border: none;
-  font-family: var(--bs-spartan-bold);
-	font-size: 12px;
-	letter-spacing: 1.2px;
-	border-radius: 4px;
-}
-.btn-primary-black-large {
-  color: #fff;
-	padding: 25px 50px;
-	background-color: #000;
-	border: none;
-  font-family: var(--bs-spartan-bold);
-	font-size: 13px;
-	letter-spacing: 1.3px;
-	border-radius: 4px;
-}
-.btn-primary-black-small {
-  color: #fff;
-	padding: 15px 30px;
-	background-color: #000;
-	border: none;
-	font-family: var(--bs-spartan-bold);
-	font-size: 12px;
-	letter-spacing: 1.2px;
-	border-radius: 4px;
-}
 .shape-around-button {
   background-color: #000;
-}
-.btn-primary-hover {
-  color: #fff;
-  background-color: #BB9185;
 }
 
 /*  
@@ -3219,13 +3177,17 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+	padding: 20px 40px;
+	background-color: #000;
+	border: none;
+	font-family: var(--bs-spartan-bold);
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #BB9185;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3248,14 +3210,18 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #000;
+	padding: 16px 36px;
+	background-color: #fff;
+	border: none;
+  font-family: var(--bs-spartan-bold);
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
+  background-color: #BB9185;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
@@ -3670,15 +3636,33 @@ textarea.form-control-lg {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  border-radius: 0.3rem;
+  color: #fff;
+	padding: 25px 50px;
+	background-color: #000;
+	border: none;
+  font-family: var(--bs-spartan-bold);
+	font-size: 13px;
+	letter-spacing: 1.3px;
+	border-radius: 4px;
+}
+.btn-lg:hover {
+  color: #fff;
+  background-color: #BB9185;
 }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  border-radius: 0.2rem;
+  color: #fff;
+	padding: 15px 30px;
+	background-color: #000;
+	border: none;
+	font-family: var(--bs-spartan-bold);
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	border-radius: 4px;
+}
+.btn-sm:hover {
+  color: #fff;
+  background-color: #BB9185;
 }
 
 .fade {
